@@ -1,0 +1,39 @@
+{
+  "name": "gulp_template",
+  "version": "1.0.0",
+  "description": "Этот проект сделан для личного пользования в целях обучения и  упрощения работы с инициализацией новых проектов",
+  "main": "test.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirKhrapovickiy/Gulp_temp.git"
+  },
+  "author": "VladimirKH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirKhrapovickiy/Gulp_temp/issues"
+  },
+  "homepage": "https://github.com/VladimirKhrapovickiy/Gulp_temp#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "compress-images": "^2.0.5",
+    "gifsicle": "^5.3.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cleaner-css": "^4.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-purgecss": "^6.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-webp": "^5.0.0",
+    "pngquant-bin": "^6.0.0",
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
