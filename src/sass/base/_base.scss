@@ -1,0 +1,21 @@
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    @include respond(big-screen){
+        font-size: 110%;
+    }
+    @include respond(tab-lend){
+        font-size: 90%;
+    }
+    @include respond(tab-port){
+        font-size: 80%;
+    }
+    @include respond(phone){
+        font-size: 70%;
+    }
+}

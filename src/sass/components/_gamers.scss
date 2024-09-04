@@ -1,0 +1,38 @@
+.gamers{
+    background-color: $color-blue-dark;
+    grid-column: 9 / -1;
+    padding: rem(175px) rem(20px);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    @include respond(tab-port){
+        grid-column: 1 / -1;
+        padding: rem(40px) rem(20px);
+    }
+    &__title{
+        text-align: center;
+        color:$color-green-light;
+        margin-bottom: rem(40px);
+    }
+    .gamer{
+        display: flex;
+        align-items: center;
+        &:not(:last-child){
+            margin-bottom: rem(40px);
+        }
+        &__img{
+            width: rem(70px);
+            height: rem(70px);
+            margin-right: rem(20px);
+        }
+        &__name{
+            font-weight: 700;
+            font-size: rem(19px);
+            margin-bottom: rem(4px);
+        }
+        &__score{
+            font-weight: 100;
+            color:$color-gray-dark;
+        }
+    }
+}
