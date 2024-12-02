@@ -51,6 +51,7 @@ gulp.task('scripts', function () {
         .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest("dist/js"))
+	.pipe(browserSync.stream());
 
 });
 
